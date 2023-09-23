@@ -31,15 +31,26 @@
 #     print(f"Sorry, I could not find a fact about {discussion_animal}")
 
 # Numerical Lists
-for value in range(1, 11):   # Remember that range() prints one less than final number. so if you want 1-10 your range() should be 1, 11.
-    print(value)
+# for value in range(1, 11):   # Remember that range() prints one less than final number. so if you want 1-10 your range() should be 1, 11.
+#     print(value)
 
 #Prints a list of numbers 
-numbers = list(range(1, 11))
-print(numbers)
+# numbers = list(range(1, 11))
+# print(numbers)
 
-squares = []
-for value in range(1, 11):
-    square = value ** 2
-    squares.append(square)
-print(squares)
+# squares = []
+# for value in range(1, 11):
+#     square = value ** 2
+#     squares.append(square)
+# print(squares)
+
+numbers = list(range(1, 1000001))
+
+minimum = min(numbers)
+maximum = max(numbers)
+
+print(f"The minimum number is: {minimum}")
+print(f"the maxium number is {maximum}")
+
+total_sum = sum(numbers)
+print(f"The sum of the numbers is: {total_sum}")
