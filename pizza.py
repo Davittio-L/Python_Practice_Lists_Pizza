@@ -38,3 +38,8 @@ for value in range(1, 11):   # Remember that range() prints one less than final 
 numbers = list(range(1, 11))
 print(numbers)
 
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+print(squares)
